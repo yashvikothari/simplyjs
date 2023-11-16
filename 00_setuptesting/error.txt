@@ -1,0 +1,42 @@
+👋 Welcome to Codespaces! You are on a custom image defined in your devcontainer.json file.
+
+🔍 To explore VS Code to its fullest, search using the Command Palette (Cmd/Ctrl + Shift + P)
+
+📝 Edit away, then run your build command to see your code running in the browser.
+@yashvibot ➜ /workspaces/simplyjs (main) $ node -v
+v20.9.0
+@yashvibot ➜ /workspaces/simplyjs (main) $ node setuptest.js
+node:internal/modules/cjs/loader:1051
+  throw err;
+  ^
+
+Error: Cannot find module '/workspaces/simplyjs/setuptest.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Module._load (node:internal/modules/cjs/loader:901:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.9.0
+@yashvibot ➜ /workspaces/simplyjs (main) $ node setuptest.js
+node:internal/modules/cjs/loader:1051
+  throw err;
+  ^
+
+Error: Cannot find module '/workspaces/simplyjs/setuptest.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Module._load (node:internal/modules/cjs/loader:901:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+because we have to check node 00_setuptesting/setuptest.js
+
+error occured due to path considering in local setup node setuptest.js 
+
+@yashvibot ➜ /workspaces/simplyjs (main) $ node 00_setuptesting/setuptest.js
+yashvi robo testing
