@@ -1,1 +1,1 @@
-![variables](simplyjs\00_imgdoc\01_basejs\CaptureOutput.PNG)
+![variables](/00_imgdoc/01_basejs/CaptureOutput.PNG)
