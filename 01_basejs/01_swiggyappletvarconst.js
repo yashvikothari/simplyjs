@@ -1,20 +1,21 @@
-const accountId = 144553;
-let accountEmail = "hitesh@google.com";
+const accountId = 1004005;
+let accountEmail = "contactexample@googlemail.com";
 var accountPassword = "12345";
-accountCity = "Jaipur";
+accountCity = "Mumbai";
 let accountState;
 
-// accountId = 2 // not allowed
+// accountId = 2 // not alloweds
 
-accountEmail = "hc@hc.com";
-accountPassword = "21212121";
-accountCity = "Bengaluru";
+accountEmail = "abc@yck.com";
+accountPassword = "1231230";
+accountCity = "Ahmedabad";
 
 console.log(accountId);
 
 /*
 Prefer not to use var
 because of issue in block scope and functional scope
+Using let helps r where js in scope assigns if accountPassowrd is assigned it will not change & considered as seperate {}.
 */
 
 console.table([
