@@ -1,1 +1,1 @@
-![Outputvariables](F:\DevPortfolioYashvi\simplyjs\01_basejs\CaptureOutput.PNG)
+![variables](simplyjs\00_imgdoc\01_basejs\CaptureOutput.PNG)
