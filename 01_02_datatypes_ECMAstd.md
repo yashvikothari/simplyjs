@@ -10,12 +10,25 @@
 
 ECMAScript 2015 (ES6) and later versions:-
 
-- Classes: New JavaScript introduced classes as a cleaner and more concise way to define object-oriented structures. This replaced the need for function-based inheritance, making code more structured and readable.
+- Classes: For writing cleaner code in more concise way to define object-oriented structures. 
 
-- Arrow Functions: Arrow functions provide a concise way to create anonymous functions without the need for brackets and parentheses. They are commonly used for event handlers, callback functions, and higher-order functions.
+This replaced the need for function-based inheritance of old JS, as code is more structured and readable.
 
-- Modules: Modules introduced a way to organize code into reusable units, promoting code modularity and reusability. This helped to improve the maintainability and readability of large codebases.
+- Arrow Functions: to create anonymous functions without the need for brackets and parentheses used for event handlers, callback functions, and higher-order functions.
+
+- Modules: a way to organize code into reusable units, promoting code modularity and reusability. It helps to improve maintenance and readability of large codebases.
 
 - Promises: Promises are asynchronous data handlers that allow for chaining asynchronous operations and handling potential errors in a more organized manner. They simplify asynchronous programming and make it more manageable.
 
-- Decorators: Decorators are a powerful feature that allows for metaprogramming, enabling the modification of classes and functions at runtime. They are primarily used for code injection and customization.
+- Decorators: allows  metaprogramming:- enabling the modification of classes and functions at runtime. They are primarily used for code injection and customization.
+
+
+# 'use strict' to consider code as new JS version
+
+automatically also it is considered as new JS even if 'use strict' is not specified in beginning.
+
+# the business need of the hour
+
+However code is run via JS engine, so somehow standard of new version was enough as reference instead of whole app (code) written in older JS version being scrapped/wasted.
+
+In Organization level, Cost Benifit Analysis is considered and cheap alternative is priotized. It's all cash, then all tech type situation.
