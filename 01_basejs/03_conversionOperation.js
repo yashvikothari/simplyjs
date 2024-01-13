@@ -19,6 +19,7 @@ let score3="33abc"
 //number is written in lower-case.
 let valueInNumber = Number(score3);//converting type
 console.log(typeof valueInNumber);//printing converted type
+console.log(typeof (valueInNumber));//by parenthesis method printing converted type
 console.log(valueInNumber) //printing value will Not a Number --- non-convertible
 
 /*
@@ -36,3 +37,4 @@ console.log(booleanIsLoggedIn);
 /* 1--> true,0-->false,""-->false,"hit"-->true
 
 /similarly exercise for converting number to string*/
+
