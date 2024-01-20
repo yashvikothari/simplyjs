@@ -1,4 +1,4 @@
-let score4 = 33abc
+let score4 = 1
 console.log(score4);
 console.log(typeof score4);
 console.log(typeof (score4));

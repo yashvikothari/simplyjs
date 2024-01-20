@@ -32,12 +32,6 @@ console.log(typeof (score4));
 console.log(score4);
 let valueofsc4 = Number(score4)
 console.log(valueofsc4);
-
-
-
- 
-
-
 let isLoggedIn = 1;
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn);
